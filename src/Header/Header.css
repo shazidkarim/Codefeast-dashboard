@@ -1,0 +1,49 @@
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #52216e 0%, #493078 30%, #2b669c 50%, #52216e 100%);
+  padding: 10px 20px;
+  color: #fff;
+}
+.logo img {
+  width: 100%;
+  margin: 15px;
+}
+.studentProfile img {
+  width: 30px;
+  cursor: pointer;
+}
+.options-container{
+  position: relative;
+}
+.options {
+  position: absolute;
+  background-color:#52216e ;
+  top: 100%;
+  right: 0;
+  border: 1px solid #2b669c;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.options span {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.options span:hover {
+  background-color: #52216e;
+}
+
+/* Horizontal line style */
+.options hr {
+  width: 100%;
+  margin: 5px 0;
+  border: 0.5px solid #ccc;
+}
