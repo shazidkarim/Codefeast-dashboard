@@ -1,14 +1,14 @@
 
   .footer {
     width: 100%;
-    background-color: rgb(104, 66, 126);
+    background: linear-gradient(to right, #52216e 0%, #493078 30%, #2b669c 50%, #52216e 100%);
     text-align: center;
     padding: 30px 0;
     position: fixed;
     bottom: 0;
   }
   .footer-line {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #080808;
     margin: 5px 0;
   }
   .footer-text {
